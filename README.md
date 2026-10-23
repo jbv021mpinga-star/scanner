@@ -1,25 +1,20 @@
 # Bybit Daily-Open Setup Scanner
 
-## Quick start (Chrome + localhost — best for Jarvis / microphone)
+## Run on Chrome + localhost (recommended)
 
-### Windows
-1. Download this whole folder (or at least `index.html` and `start-scanner.bat`).
-2. Double-click **`start-scanner.bat`**.
-3. Chrome will open to `http://localhost:8000`.
-4. Allow the microphone when asked.
+The file that works for you is the one you open at a local address like:
+`http://localhost:7700/BybitScanner%20(16).html`
 
-### Mac / Linux
-```bash
-python3 -m http.server 8000
-```
-Then open Chrome to `http://localhost:8000`.
+### On your tablet
+1. Use the same local server method you used before (port 7700 or similar).
+2. Place your working HTML file in the server folder.
+3. Open Chrome to the local address.
+4. Allow the microphone.
 
-### Why localhost?
-Browsers only give microphone access on secure origins (`https://` or `http://localhost`).  
-Running locally gives you the full Jarvis voice features.
+### One-click (Windows only)
+Double-click `start-scanner.bat` after putting the real `index.html` in the same folder.
 
-## GitHub Pages version
-Once the site is live you can also use:  
+## Public link (once Pages finishes)
 https://jbv021mpinga-star.github.io/scanner
 
-(Microphone works there too because it is HTTPS.)
+Microphone works on both localhost and the HTTPS GitHub Pages link.
